@@ -11,7 +11,7 @@ button?.addEventListener("click", function(){
         alert("You Won!")
     }
     if (answer != guess) {
-        alert("Incorrect try again, note you only have 3 tries before you start over")
+        alert("Incorrect try again, note you only have 5 tries before you start over")
     }
     console.log(guess);
 });
