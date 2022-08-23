@@ -18,3 +18,18 @@ body {
 	height: 600px;
 	border: solid 1px black;
 }
+@keyframes rainbow {
+	0% {color: red;}
+	14% {color: orange;}
+	28% {color: yellow;}
+	42% {color: green;}
+	66% {color: blue;}
+	84% {color: indigo;}
+	100% {color: violet;}
+}
+h1 {
+color: red;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 3em;
+animation:rainbow 5s infinite alternate-reverse;
+}
